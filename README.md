@@ -52,9 +52,11 @@ Hamming loss measures the accuracy in a multi-label classification task. XOR log
 Load the Train.csv files using Sqlite and pandas.
 
 Understanding the distribution of frequency of different tags (label)
+
 ![image](https://user-images.githubusercontent.com/36214903/148880422-56f653ce-642d-4723-8093-2dc622ed4b13.png)
 
 Number of tags in different questions
+
 ![image](https://user-images.githubusercontent.com/36214903/148880461-7c509f33-c53b-48d5-ab0e-7fc80a43dc54.png)
 
 ##### Observations
@@ -66,9 +68,11 @@ Number of tags in different questions
 ##### Word frequency cloud
 One of the best ways to visualize the most frequent tags is to use a word cloud. The size of the word
 in this image/plot represents the frequency of the word/tag.
+
 ![image](https://user-images.githubusercontent.com/36214903/148880480-ced49ef0-4812-4d90-96f0-cd9d7a4d46f4.png)
 
 Visualize top 20 tags
+
 ![image](https://user-images.githubusercontent.com/36214903/148880510-b1c8cd23-443b-488e-bd1a-d1e637951e47.png)
 
 Here's few insights from the above bar plot
