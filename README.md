@@ -128,3 +128,14 @@ Here's few insights from the above plot:
 - Choosing 5500 questions will cover upto 99% of the questions
 - 18k tags will cover nearly 100% of the questions
 
+
+### Results
+Using a OneVsRest SGD Classifier from Sklearn, the label prediction works with an average precision of 0.72, average recall of 0.33 and an F1-score of 0.45
+
+Low recall seems to be the factor in bringing down the F1-score.
+
+These scores can be further improved with techniques such as:
+- Using 1M data points (instead of 0.5M) 
+- Using 5000 data labels (instead of 500 labels)
+- Using stacking techniques (which takes more time to train different classifiers)
+- Adding more weights to titles and code part of the question.
